@@ -12,7 +12,7 @@ import java.util.function.Predicate;
  * This is generally defined by a boolean lambda-function taking the FilterArgs pair.
  * (Semantic-sugar for Predicate syntax)
  * 
- * @author crash
+ * @author crashdemons
  */
 public interface FilterCondition extends Predicate<FilterArgs> {
     /**

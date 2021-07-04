@@ -1,0 +1,72 @@
+filter-order: [whitelist,group-whitelists]
+
+# default behavior when no filters match the command
+filter-default: DENY_FINAL
+
+kick-early-joins: false
+kick-message: Please wait a moment for the server to load!
+
+
+# tab suggestions visible by whitelist for the default group
+visible-commands:
+  - //calc
+  - /calc
+  - calc
+  - '//calc'
+  - '/calc'
+  - 'calc'
+  - about
+  - blacklist
+#  - bl
+  - color
+  - deathlog
+  - discord
+  - droprate
+  - echo
+  - email
+  - gc
+  - glist
+#  - global
+  - help
+  - hm
+  - horses
+  - ignore
+  - lag
+  - mail
+  - msg
+  - ping
+  - plugins
+#  - pm
+  - rules
+  - server
+  - spectate
+#  - tell
+  - teammsg
+  - tpa
+  - tpaccept
+  - tpahere
+  - unignore
+#  - uptime
+  - vote
+  - whitelist
+#  - wl
+
+
+# tab suggestions invisible by blacklist for the default group
+# by default, this overrides visible-commands and group visibility
+invisible-commands:
+  - execute
+  - testfor
+  - particle
+
+groups:
+  chatmod:
+    visible-commands:
+      - mute
+    invisible-commands:
+      - something
+  moderator:
+    visible-commands:
+      - tp
+    invisible-commands:
+      - somethingelse

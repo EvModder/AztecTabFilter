@@ -7,7 +7,7 @@ package com.github.crashdemons.aztectabfilter.filters;
 
 /**
  * Defines an enumation of possible Filter outcomes that can be decided
- * @author crash
+ * @author crashdemons
  */
 public enum FilterResult {
     /**

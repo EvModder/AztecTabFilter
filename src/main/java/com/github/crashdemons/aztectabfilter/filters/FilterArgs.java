@@ -12,7 +12,7 @@ import org.bukkit.entity.Player;
  * Defines a set of arguments passed to filters for testing.
  * Contains the command suggestion to be filtered and the player who receives the suggestion.
  * (Semantic-sugar for Pair syntax)
- * @author crash
+ * @author crashdemons
  */
 public class FilterArgs extends Pair<Player,String> {
     /**
